@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Room homepage</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <link rel="stylesheet" href="./styles.css" /> -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="overlay"></div>
+      <button id="menu-btn" class="hamburger" type="button">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+      <nav class="mobile-menu">
+        <ul>
+          <li>home</li>
+          <li>shop</li>
+          <li>about</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+      <nav class="desktop-menu">
+        <h1 class="brand-title">room</h1>
+        <ul>
+          <li>home</li>
+          <li>shop</li>
+          <li>about</li>
+          <li>contact</li>
+        </ul>
+      </nav>
+      <main>
+        <section class="section-1">
+          <img src="./src/images/desktop-image-hero-1.jpg" data-curImg="0" alt="" class="img-holder" />
+          <div class="section-1-main">
+            <h1 class="title-holder">Discover innovative ways to decorate</h1>
+            <p class="text-holder">
+              We provide unmatched quality, comfort, and style for property owners across the country. Our experts
+              combine form and function in bringing your vision to life. Create a room in your own style with our
+              collection and make your property a reflection of you and what you love.
+            </p>
+            <div class="btn-shop">
+              <h5>Shop now</h5>
+              <img src="./src/images/icon-arrow.svg" alt="icon-right" />
+            </div>
+            <div class="slider-container">
+              <button class="slider-left slider-btn"><img src="./src/images/icon-angle-left.svg" alt="" /></button>
+              <button class="slider-right slider-btn"><img src="./src/images/icon-angle-right.svg" alt="" /></button>
+            </div>
+          </div>
+        </section>
+        <section class="section-2">
+          <img src="./src/images/image-about-dark.jpg" alt="" />
+          <div class="section-2-main">
+            <h1>About our furniture</h1>
+            <p>
+              Our multifunctional collection blends design and function to suit your individual taste. Make each room
+              unique, or pick a cohesive theme that best express your interests and what inspires you. Find the
+              furniture pieces you need, from traditional to contemporary styles or anything in between. Product
+              specialists are available to help you create your dream space.
+            </p>
+          </div>
+          <img src="./src/images/image-about-light.jpg" alt="" />
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
