@@ -16,7 +16,7 @@
 
 .prettierignore
 
-node_modules/
-dist/
-design/
+node_modules
+dist
+design
 *.log
